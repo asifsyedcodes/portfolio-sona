@@ -11,6 +11,23 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        green : {
+          100: '#f6fff8',
+          200: '#84a98c',
+          300:'#cad2c5',
+          700: '#52796f',
+          900: '#354f52',
+        },
+        black: {
+          900: '#000000',
+        },
+        gray: {
+          600: '#D7D7D7'
+        }
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"], 
+        mono: ["Fira Code", "monospace"],
       },
     },
   },
