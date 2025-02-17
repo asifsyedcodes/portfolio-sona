@@ -6,7 +6,7 @@ import Link from "next/link";
 export const Footer = () => {
 
   return (
-    <div className="mt-auto w-full bg-green-300 py-5 flex items-center justify-center gap-3">
+    <div className="fixed bottom-0 left-0 w-full bg-green-300 py-5 flex items-center justify-center gap-3">
       {/* TODO -> Resume */}
       <Link
         href="https://www.linkedin.com/in/sonasathar/"
