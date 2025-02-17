@@ -6,9 +6,9 @@ export default function About() {
   return (
     <div className="w-full px-5">
       <AboutSection />
-      <hr className="my-3" />
+      <hr className="m-3" />
       <ProcessSection />
-      <hr className="my-3" />
+      <hr className="m-3" />
       <SkillsSection />
     </div>
   );

@@ -23,9 +23,11 @@ export const AboutSection = () => {
             <span className="text-green-700 font-libre">SONA</span>{" "}
             <span className="text-green-900 font-libre">SATHAR</span>
           </h1>
-          <p className="mt-4 text-lg md:text-xl font-bold text-gray-800 text-center lg:text-left">
-            I am a Learner’s Designer by intention.
-          </p>
+          <div className="group">
+            <p className="mt-4 text-lg md:text-xl font-bold text-gray-800 text-center lg:text-left overflow-hidden whitespace-nowrap animate-typing-slow">
+              I am a Learner's Designer by intention.
+            </p>
+          </div>
           <p className="mt-2 text-gray-700">
             The learner is at the heart of my designs, and their needs,
             capabilities, and challenges guide every design decision I make. I
@@ -50,7 +52,7 @@ export const AboutSection = () => {
           <p className="mt-4 text-gray-700">
             I am always eager for opportunities to design learning experiences
             that help both learners and myself grow and be better at what we do.
-            Let’s connect if this resonates with you!
+            Let's connect if this resonates with you!
           </p>
           <p className="text-base italic mt-3 text-gray-700">
             — Based in Vancouver, Canada

@@ -33,6 +33,40 @@ export default {
         libre: ["var(--font-libre-baskerville)", "serif"],
         mono: ["Fira Code", "monospace"],
       },
+      animation: {
+        "typing-fast": "typingFast 1s steps(40) 0s 1 normal both",
+        "typing-slow": "typingSlow 3s steps(40) 0s 1 normal both",
+        "slide-from-top": "slideFromTop 0.5s ease-out forwards",
+        "underline-slide": "slide-underline 0.3s ease-out forwards",
+      },
+      keyframes: {
+        slideFromTop: {
+          "0%": {
+            transform: "translateY(-100%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: "1",
+          },
+        },
+        "slide-underline": {
+          "0%": {
+            width: "0%",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        typingFast: {
+          "0%": { width: "0" },
+          "100%": { width: "100%" },
+        },
+        typingSlow: {
+          "0%": { width: "0" },
+          "100%": { width: "100%" },
+        },
+      },
     },
   },
   plugins: [],

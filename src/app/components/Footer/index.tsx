@@ -11,7 +11,7 @@ export const Footer = () => {
       <Link
         href="https://www.linkedin.com/in/sonasathar/"
         target="_blank"
-        className="p-2 rounded-full bg-green-100 flex items-center justify-center"
+        className="p-2 rounded-full bg-green-100 flex items-center justify-center justify-center transform transition-transform duration-300 ease-in-out hover:rotate-12"
       >
         <HiDocumentText className="h-6 w-6 text-green-900" />
       </Link>
@@ -19,7 +19,7 @@ export const Footer = () => {
       <Link
         href="https://www.linkedin.com/in/sonasathar/"
         target="_blank"
-        className="p-2 rounded-full bg-green-100 flex items-center justify-center"
+        className="p-2 rounded-full bg-green-100 flex items-center justify-center transform transition-transform duration-300 ease-in-out hover:rotate-12"
       >
         <RiLinkedinBoxFill className="h-6 w-6 text-green-900" />
       </Link>
@@ -27,7 +27,7 @@ export const Footer = () => {
       <Link
         href="mailto:sonasathar@gmail.com"
         target="_blank"
-        className="p-2 rounded-full bg-green-100 flex items-center justify-center"
+        className="p-2 rounded-full bg-green-100 flex items-center justify-center transform transition-transform duration-300 ease-in-out hover:rotate-12"
       >
         <HiMail className="h-6 w-6 text-green-900" />
       </Link>
