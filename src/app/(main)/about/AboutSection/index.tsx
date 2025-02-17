@@ -18,13 +18,13 @@ export const AboutSection = () => {
         </div>
 
         {/* Text Content */}
-        <div className="flex-1 text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl font-extrabold">
+        <div className="flex-1">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-center lg:text-left">
             <span className="text-green-700 font-libre">SONA</span>{" "}
             <span className="text-green-900 font-libre">SATHAR</span>
           </h1>
 
-          <p className="mt-4 text-lg md:text-xl font-bold text-gray-800">
+          <p className="mt-4 text-lg md:text-xl font-bold text-gray-800 text-center lg:text-left">
             I am a Learner’s Designer by intention.
           </p>
           <p className="mt-2 text-gray-700">
