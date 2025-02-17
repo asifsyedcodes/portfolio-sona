@@ -25,7 +25,7 @@ export const AboutSection = () => {
           </h1>
           <div className="group">
             <p className="mt-4 text-lg md:text-xl font-bold text-gray-800 text-center lg:text-left overflow-hidden whitespace-nowrap animate-typing-slow">
-              I am a Learner's Designer by intention.
+              I am a Learner&apos;s Designer by intention.
             </p>
           </div>
           <p className="mt-2 text-gray-700">
@@ -52,7 +52,7 @@ export const AboutSection = () => {
           <p className="mt-4 text-gray-700">
             I am always eager for opportunities to design learning experiences
             that help both learners and myself grow and be better at what we do.
-            Let's connect if this resonates with you!
+            Let&apos;s connect if this resonates with you!
           </p>
           <p className="text-base italic mt-3 text-gray-700">
             — Based in Vancouver, Canada
