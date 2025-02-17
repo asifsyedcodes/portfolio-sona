@@ -9,7 +9,7 @@ export default function Home() {
           <span className="text-green-900 font-libre">SONA</span>{" "}
           <span className="font-libre">SATHAR</span>
         </h1>
-        <p className="text-2xl md:text-3xl text-gray-700 mt-4">
+        <p className="text-2xl md:text-3xl text-black-900 mt-4">
           Learning Designer &bull; Instructional Designer
         </p>
         <p className="text-xl md:text-2xl  text-gray-800 mt-2">
