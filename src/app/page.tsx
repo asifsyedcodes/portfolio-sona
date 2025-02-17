@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white text-center bg-gradient-to-r from-white-900 via-green-300 to-green-700">
-      <div className="flex-grow flex flex-col items-center justify-center">
+      <div className="flex-grow flex flex-col items-center justify-center px-5">
         <h1 className="text-5xl md:text-7xl font-semibold text-gray-800">
           <span className="text-green-900 font-libre">SONA</span>{" "}
           <span className="font-libre">SATHAR</span>
