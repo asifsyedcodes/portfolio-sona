@@ -8,15 +8,13 @@ export const ProcessSection = () => {
         <span className="text-green-700">Engaging and Meaningful Learning</span>
       </p>
       <p className="mt-4">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        {/* TODO -> Change text */}
+        Over the past five years, I have created interactive, scenario-based,
+        and gamified eLearning content grounded in adult learning theories,
+        instructional design principles, user experience, and psychology. This
+        approach has honed my ability to empathize with learners, strategize
+        goal-oriented solutions, personalize complex technical content, and
+        visualize meaningful on-screen elements and interactions.
       </p>
       <p className="text-2xl mt-6">
         My Process for{" "}
