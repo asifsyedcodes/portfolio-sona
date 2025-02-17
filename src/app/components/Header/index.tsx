@@ -17,7 +17,7 @@ export const Header = () => {
             href="/about"
             className={`font-semibold text-lg ${
               pathname === "/about"
-                ? "text-green-700 underline underline-green-700"
+                ? "text-green-700"
                 : "text-black hover:text-gray-700"
             }`}
           >
@@ -27,7 +27,7 @@ export const Header = () => {
             href="/portfolio"
             className={`font-semibold text-lg ${
               pathname === "/portfolio"
-                ? "text-green-700 underline underline-green-700"
+                ? "text-green-700"
                 : "text-black hover:text-gray-700"
             }`}
           >
