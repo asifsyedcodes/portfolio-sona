@@ -2,7 +2,7 @@ import { EDUCATION } from "../const";
 
 export const Education = () => {
   return (
-    <div className="p-2 lg:p-4 mx-3">
+    <div>
       <p className="font-bold text-xl">EDUCATION</p>
       <div className="mt-3">
         {EDUCATION.map((edu) => (

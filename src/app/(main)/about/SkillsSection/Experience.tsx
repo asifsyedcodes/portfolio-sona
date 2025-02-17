@@ -2,7 +2,7 @@ import { EXPERIENCE } from "../const"
 
 export const Experience = () => {
   return (
-    <div className="p-2 lg:p-4 mx-3">
+    <div>
       <p className="font-bold text-xl">EXPERIENCE</p>
       <div className="mt-3">
         {EXPERIENCE.map((exp) => (
