@@ -7,7 +7,7 @@ export const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="text-white px-8 py-3">
+    <header className="text-white px-4 md:px-8 py-3">
       <nav className="flex w-full justify-between items-center">
         <Link href="/" className="">
           <Image alt="logo" src={"/assets/logo.png"} width={80} height={80} />
