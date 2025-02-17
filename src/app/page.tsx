@@ -9,8 +9,8 @@ export default function Home() {
           <span className="text-green-900 font-libre">SONA</span>{" "}
           <span className="font-libre">SATHAR</span>
         </h1>
-        <div className="group">
-          <p className="text-xl md:text-3xl text-black-900 mt-4 overflow-hidden whitespace-nowrap animate-typing-fast">
+        <div className="mt-2 md:mt-4 group">
+          <p className="text-xl md:text-3xl text-black-900  overflow-hidden whitespace-nowrap animate-typing-fast">
             Learning Designer &bull; Instructional Designer
           </p>
         </div>
