@@ -8,7 +8,7 @@ export const AboutSection = () => {
         <div className="flex-shrink-0">
           <div className="w-48 h-48 md:w-80 md:h-80 border-4 border-green-300 rounded-full overflow-hidden">
             <Image
-              src="/assets/profile_picture.jpeg"
+              src="/assets/profile_picture.png"
               alt="Sona Sathar"
               width={256}
               height={256}
